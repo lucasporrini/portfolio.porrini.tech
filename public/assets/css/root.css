@@ -1,0 +1,57 @@
+:root {
+    /* ======================== DEFAULT CONFIG ======================== */
+    --font-family: 'Neue Montreal';
+    --font-size: 16px;
+    --font-weight: 400;
+    --line-height: 1.5;
+    --color: rgb(255, 255, 255);
+    --background-color: rgb(0, 0, 0);
+    --border-radius: 0.25rem;
+    --transition-property: all;
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-duration: 500ms;
+    
+    /* ======================== HEADER ======================== */
+    --header-height: 60px;
+    --header-font-size: 1rem;
+    --header-color: rgb(255, 255, 255);
+    --header-weight: 500;
+    --header-font-size-title: 13rem;
+    --header-font-size-medium: 5rem;
+    --header-font-size-description: 2rem;
+    --header-line-height-title: 1.1;
+
+    /* ======================== ABOUT ======================== */
+    --about-font-size: 1rem;
+    --about-title-font-size: 5rem;
+    --about-font-size-description: 2rem;
+
+    /* ======================== WORKS ======================== */
+    --works-font-size: 4rem;
+    --works-title-font-size: 2rem;
+    --works-font-size-description: 1rem;
+    --works-font-size-button: 1.5rem;
+
+    /* ======================== CONNECT ======================== */
+    --cta-title-font-size: 13rem;
+    --cta-font-size: 1.7rem;
+
+    /* ======================== FOOTER ======================== */
+    --footer-font-size: 2rem;
+    --footer-title-font-size: 2rem;
+    --footer-font-size-description: 1rem;
+    --footer-font-size-links: 1.5rem;
+
+    /* ======================== CHATBOT COLOR ======================== */
+    --chatbot-color: rgb(222, 184, 135);
+    --chatbot-color-hover: rgb(244, 244, 244);
+    --chatbot-text-color: rgb(255, 255, 255);
+    --chatbot-content-background-color: rgba(126, 126, 126, 0.5);
+    --chatbot-button-background: rgba(255, 255, 255, 0.4);
+
+    --chatbot-bot-message-text: var(--chatbot-color);
+    --chatbot-bot-message-background: var(--chatbot-color-hover);
+
+    --chatbot-user-message-text: rgb(244, 244, 244);
+    --chatbot-user-message-background: var(--chatbot-color);
+}

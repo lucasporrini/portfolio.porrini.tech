@@ -1,0 +1,49 @@
+.underline {
+    position: relative;
+    text-decoration: none;
+}
+
+.underline:hover {
+    opacity: 0.6;
+}
+  
+.underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Epaisseur de la barre de soulignement */
+    bottom: 0px; /* Ajustez cette valeur pour déplacer la barre vers le bas */
+    left: 50%;
+    background-color: var(--color); /* Couleur de la barre */
+    transition: width 0.3s ease, left 0.3s ease; /* Ajustez la durée et le type d'animation ici */
+}
+  
+.underline:hover::after {
+    width: 100%; /* Largeur complète au survol */
+    left: 0; /* Démarre du côté gauche */
+}
+
+.strikethough {
+    position: relative;
+    text-decoration: none;
+}
+
+.strikethough:hover {
+    opacity: 0.6;
+}
+  
+.strikethough::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Epaisseur de la barre de soulignement */
+    bottom: 40%; /* Ajustez cette valeur pour déplacer la barre vers le bas */
+    left: 50%;
+    background-color: var(--color); /* Couleur de la barre */
+    transition: width 0.3s ease, left 0.3s ease; /* Ajustez la durée et le type d'animation ici */
+}
+  
+.strikethough:hover::after {
+    width: 100%; /* Largeur complète au survol */
+    left: 0; /* Démarre du côté gauche */
+}

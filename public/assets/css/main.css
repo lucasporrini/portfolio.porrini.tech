@@ -1,0 +1,421 @@
+html {
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    overflow-x: hidden;
+}
+
+body {
+    color: var(--color);
+    background-color: var(--background-color);
+    position: relative;
+}
+
+::selection {
+    background-color: transparent;
+    color:burlywood;
+}
+
+.root {
+    position: relative;
+}
+
+.button {
+    width: fit-content;
+    border: 1px solid var(--header-color);
+    border-radius: 50px;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: var(--header-color);
+    color: var(--background-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: var(--header-height);
+    color: var(--header-color);
+    font-size: var(--header-font-size);
+    font-weight: var(--header-weight);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 2rem;
+    z-index: 999;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+header .header-left {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+header .header-name {
+    font-family: 'Aura Luxess';
+}
+
+header .header-left {
+    text-transform: uppercase;
+}
+
+.parallax {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url("/public/assets/img/back.jpg");
+
+    /* Effet parallaxe */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-date {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    font-family: 'Aura Luxess';
+    color: var(--header-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.hero-date-background {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+    z-index: -1;
+    display: none; /* Masqué initialement */
+}
+
+.hero-date-day {
+    font-size: var(--header-font-size-title);
+}
+
+.hero-date-month {
+    font-size: 3rem;
+}
+
+.hero-date-second {
+    display: flex;
+    flex-direction: column;
+    line-height: var(--header-line-height-title);
+}
+
+.hero-title {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+}
+
+.hero-title-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--header-color);
+    font-family: 'Tusker Grotesk';
+    font-size: var(--header-font-size-title);
+    line-height: var(--header-line-height-title);
+}
+
+.hero-title-text-first {
+    display: flex;
+    align-items: baseline;
+}
+
+.hero-title-text-first > :nth-child(2) {
+    font-family: 'Aura Luxess';
+    font-size: var(--header-font-size-medium);
+}
+
+.hero-description {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+    color: var(--header-color);
+    font-family: 'Neue Montreal';
+    text-transform: uppercase;
+    font-size: var(--header-font-size-description);
+    line-height: var(--header-line-height-title);
+}
+
+.hero-description > :first-child {
+    margin-left: auto;
+}
+
+.hero-button {
+    width: fit-content;
+    border: 1px solid var(--header-color);
+    border-radius: 50px;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.about {
+    margin-top: 300px;
+    position: relative;
+    padding-inline: 20px;
+    display: flex;
+}
+
+.about-content {
+    width: 50%;
+    margin-left: auto;
+}
+
+.about-model {
+    width: 40%;
+}
+
+.about-description {
+    font-size: var(--header-font-size-description);
+    text-transform: uppercase;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.about-title-hello {
+    font-family: 'Tusker Grotesk';
+    font-size: var(--about-title-font-size);
+    line-height: 1;
+}
+
+.about-title-name {
+    text-align: end;
+    font-family: 'Aura Luxess';
+}
+
+.modelContainer {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.modelContainer:focus-visible,
+.modelContainer:focus,
+.modelContainer:active {
+    outline: none;
+}
+
+.works {
+    margin-top: 300px;
+    position: relative;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-inline: auto;
+    gap: 2rem;
+}
+
+.works-title {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.works-title span {
+    text-transform: uppercase;
+    font-size: var(--works-title-font-size);
+    line-height: 1;
+}
+
+.works-selection {
+    display: flex;
+    gap: 2rem;
+}
+
+.works-selection-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.works-selection-title > :first-child {
+    text-transform: uppercase;
+    font-family: 'Tusker Grotesk';
+    font-size: var(--works-font-size);
+    line-height: 1;
+}
+
+.works-selection-title > :last-child {
+    text-transform: uppercase;
+}
+
+.works-selection-image {
+    overflow: hidden; /* Empêche le débordement de l'image */
+    /* Ajoutez les styles nécessaires pour le conteneur, par exemple : */
+    margin: auto; /* pour centrer, si nécessaire */
+    /* Vous pouvez également ajouter une bordure ou un padding si vous voulez */
+}
+
+.works-selection-image img {
+    width: 100%; /* Assure que l'image remplit le conteneur */
+    height: 100%; /* Assure que l'image remplit le conteneur */
+    transition: transform 0.3s ease; /* Animation fluide pour le zoom */
+}
+
+.works-selection-image:hover img {
+    transform: scale(1.1); /* Zoom l'image de 10% lors du survol */
+}
+
+.works-button-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.works-button-container > span {
+    font-family: 'Aura Luxess';
+    font-size: var(--works-font-size-description);
+    line-height: 1;
+    width: 100px;
+}
+
+.works-button {
+    width: fit-content;
+    border: 1px solid var(--header-color);
+    border-radius: 50px;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    font-size: var(--works-font-size-button);
+}
+
+.works-button-reverse {
+    width: fit-content;
+    border: 1px solid var(--color);
+    background-color: var(--color);
+    color: var(--background-color);
+    border-radius: 50px;
+    padding: 0.25rem 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    font-size: var(--works-font-size-button);
+}
+
+.works-button-reverse:hover {
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+.cta {
+    margin-top: 300px;
+    position: relative;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.cta-title {
+    display: flex;
+    margin-top: auto;
+    width: fit-content;
+    font-family: 'Tusker Grotesk';
+    text-transform: uppercase;
+    font-size: var(--cta-title-font-size);
+    line-height: 1;
+}
+
+.cta-buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: var(--cta-font-size);
+}
+
+.cta-buttons div {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    text-transform: uppercase;
+}
+
+.footer .button {
+    font-size: var(--footer-font-size);
+}
+
+.footer hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-cta {
+    font-size: var(--footer-font-size);
+}
+
+.footer-links > a {
+    font-size: var(--footer-font-size-links);
+    transition: all 0.3s ease-in-out;
+}
