@@ -53,7 +53,6 @@ window.addEventListener('load', () => {
 
                     // wait and display the chatbot response
                     getTokenValue().then(fetchedToken => {
-                        console.log(fetchedToken);
                         displayChatbotResponse(id, chatbotMessageContainer, fetchedToken);
                     });
                 });
@@ -136,7 +135,7 @@ function displayChatbotButton(array) {
 }
 
 async function displayChatbotResponse(userEntryId, container, token) {
-    console.log(token);
+    console.log(userEntryId, container, token);
     // api request to get the chatbot response
     try{
         fetch('https://api.porrini.tech/get_chatbot_response_to_message/' + userEntryId, {
