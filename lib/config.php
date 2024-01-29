@@ -64,6 +64,5 @@ foreach ($lines as $line) {
 
 // Ecrire en session le token de l'API
 if(!isset($_SESSION['token'])) {
-    print_r($_SESSION['TOKEN']);
     $_SESSION['token'] = $_ENV['TOKEN'];
 }
