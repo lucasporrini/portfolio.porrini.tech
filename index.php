@@ -3,6 +3,7 @@
 require_once 'vendor/autoload.php';
 
 // Inclure les fichiers nécessaires
+require_once 'lib/preprocess.php';
 require_once 'lib/config.php';
 
 // charger le router
