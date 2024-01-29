@@ -53,6 +53,7 @@ window.addEventListener('load', () => {
 
                     // wait and display the chatbot response
                     getTokenValue().then(fetchedToken => {
+                        console.log(fetchedToken);
                         displayChatbotResponse(id, chatbotMessageContainer, fetchedToken);
                     });
                 });
