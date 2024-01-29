@@ -65,7 +65,7 @@ let token = null;
 
 async function getToken() {
     try {
-        const response = await fetch('https://portfolio.porrini.tech/api/token', { 
+        const response = await fetch('https://portfolio.porrini.tech/api/token', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
