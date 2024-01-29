@@ -5,7 +5,7 @@ class ApiModel
 
     public function __construct()
     {
-        $this->apiBaseUrl = "https://api.porrini.tech/";
+        $this->apiBaseUrl = getenv("API_BASE_URL");
     }
 
     public function api_call($url_slug, $token)
