@@ -41,10 +41,12 @@ class MainController
                 write_log('tracking_deploy', 'Error', 'Le script n\'est pas présent dans le dossier "auto"', 'red');
                 echo "Le script n'est pas présent dans le dossier 'auto'";
                 return;
+            } else {
+                write_log('tracking_deploy', 'Success', 'Le script est présent dans le dossier "auto"', 'green');
+                
+                // execution du script
+                shell_exec('./app/auto/autodeploy.sh');
             }
-
-            // execution du script
-            shell_exec('./app/auto/autodeploy.sh');
 
             // On récupère les données du dernier commit pour les enregistrer dans un fichier
             $payload = json_decode($payload, true);
