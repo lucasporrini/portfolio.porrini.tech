@@ -3,6 +3,7 @@
 define('SITE_NAME',                     "lucas.porrini");
 define('SITE_URL_NAME',                 "lucas.porrini.tech");
 define('SITE_URL',                      "https://www." . SITE_URL_NAME . "/");
+define('DEV_MAIL',                      "2608lucas@gmail.com");
 define('SITE_LOGO',                     "logo.png");
 define('SITE_HEBERGEUR',                "ovh.fr");
 define('SITE_DEBUG',                    true); // Mettre à "false" en production
