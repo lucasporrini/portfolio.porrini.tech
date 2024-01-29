@@ -14,11 +14,11 @@ class MainController
 
     public function github_webhook()
     {
-        // Enregistrement du payload dans un fichier
+        // save the payload in payload.log
         $payload = file_get_contents('php://input'); 
         $githubSignature = isset($_SERVER['HTTP_X_HUB_SIGNATURE']) ? $_SERVER['HTTP_X_HUB_SIGNATURE'] : '';
 
-        // On vérifie que le secret est présent dans le fichier .env
+        // check if the secret is present in the .env file
         $secret = $_ENV['GITHUB_SECRET'];
         if(!$secret) { 
             write_log('tracking_deploy', 'Error', 'Le secret n\'est pas présent dans le fichier .env', 'red');
