@@ -121,7 +121,7 @@ class MainController
 
     public function render_error()
     {
-        // Inclure la vue correspondante
+        // send it to the view
         echo $this->pages->render(
             'error/error',
             [
