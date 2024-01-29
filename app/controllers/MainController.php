@@ -26,7 +26,7 @@ class MainController
             return;
         }
 
-        $hash = hash_hmac('sha1', $payload, $secret); // On génère le hash
+        $hash = hash_hmac('sha1', $payload, $secret); // generate the hash
 
         if (hash_equals('sha1=' . $hash, $githubSignature)) {
             // On integre un message de validation avec la date et l'heure
