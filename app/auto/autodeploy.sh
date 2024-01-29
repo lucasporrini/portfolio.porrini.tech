@@ -1,6 +1,3 @@
-# Ecrire dans le fichier de log que le script est lancé
-echo "Lancement du script de déploiement automatique" >> logs/auto/deploy.log
-
 # Se déplacer à la racine du projet
 cd ./
 
