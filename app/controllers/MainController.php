@@ -135,14 +135,12 @@ class MainController
 
     public function get_token()
     {
-        print_r($_ENV['TOKEN']);
-        print_r($_SESSION['token']);
-        // if (isset($_SESSION['token'])) {
-        //     $response = ['token' => $_SESSION['token']];
-        //     header('Content-Type: application/json');
-        //     echo json_encode($response);
-        // } else {
-        //     echo json_encode(['error' => 'Token not found']);
-        // }
+        if (isset($_SESSION['token'])) {
+            $response = ['token' => $_SESSION['token']];
+            header('Content-Type: application/json');
+            echo json_encode($response);
+        } else {
+            echo json_encode(['error' => 'Token not found']);
+        }
     }
 }
