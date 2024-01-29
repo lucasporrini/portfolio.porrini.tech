@@ -29,14 +29,14 @@ class MainController
         $hash = hash_hmac('sha1', $payload, $secret); // generate the hash
 
         if (hash_equals('sha1=' . $hash, $githubSignature)) {
-            // On integre un message de validation avec la date et l'heure
+            // the signature is valid, continue
             $date = date('d/m/Y H:i:s');
             $data = $date . ' - ' . $payload;
 
-            // On enregistre le payload dans un fichier
+            // save the payload in payload.log
             write_log('payload', 'Valid payload', $data, 'green');
 
-            // On verifie que le script est présent dans le dossier "automatic"
+            // check if the script is present in the auto folder
             if(!file_exists('./app/auto/autodeploy.sh')) {
                 write_log('tracking_deploy', 'Error', 'Le script n\'est pas présent dans le dossier "auto"', 'red');
                 echo "Le script n'est pas présent dans le dossier 'auto'";
