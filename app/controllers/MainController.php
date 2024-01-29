@@ -135,8 +135,8 @@ class MainController
 
     public function get_token()
     {
-        if (isset($_ENV['token'])) {
-            $response = ['token' => $_ENV['token']];
+        if (isset($_SESSION['token'])) {
+            $response = ['token' => $_SESSION['token']];
             header('Content-Type: application/json');
             echo json_encode($response);
         } else {
