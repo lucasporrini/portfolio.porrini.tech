@@ -45,7 +45,7 @@ class MainController
                 write_log('tracking_deploy', 'Success', 'Le script est présent dans le dossier "auto"', 'green');
 
                 // execute the script
-                $output = shell_exec('./app/auto/autodeploy.sh');
+                shell_exec('./app/auto/autodeploy.sh');
                 write_log('tracking_deploy', 'Success', 'Le script a été exécuté', 'green');
             }
 
