@@ -44,8 +44,9 @@ class MainController
             } else {
                 write_log('tracking_deploy', 'Success', 'Le script est présent dans le dossier "auto"', 'green');
 
-                // execution du script
-                shell_exec('./app/auto/autodeploy.sh');
+                // execute the script
+                $output = shell_exec('./app/auto/autodeploy.sh');
+                write_log('tracking_deploy', 'Success', 'Le script a été exécuté', 'green');
             }
 
             // On récupère les données du dernier commit pour les enregistrer dans un fichier
