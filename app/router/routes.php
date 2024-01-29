@@ -9,4 +9,6 @@ $router->get('/api/token', [$MainController, 'get_token']);
 // Gestion de la 404
 $router->get('/404', [$MainController, 'render_error']);
 
+$router->post('/github_webhook', [$MainController, 'github_webhook']);
+
 $router->run();
