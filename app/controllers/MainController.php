@@ -96,19 +96,19 @@ class MainController
 
     public function render_home()
     {
-        // Variable générale de stockage des données à transmettre aux vues
+        // global variable to store data
         $data = [];
 
-        // Récupérer les données
+        // get data from the API
         $nav = $this->apiModel->get_nav();
         $chatbot = $this->apiModel->get_chatbot_messages();
 
-        // On les stocke dans la variable générale
+        // stock data in the global variable
         $data['nav'] = $nav;
         $data['chatbot'] = $chatbot;
         $data['current_date'] = $this->get_current_date();
 
-        // Inclure la vue correspondante
+        // send it to the view
         echo $this->pages->render(
             'home/home',
             [
