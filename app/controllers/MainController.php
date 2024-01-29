@@ -43,7 +43,7 @@ class MainController
                 return;
             } else {
                 write_log('tracking_deploy', 'Success', 'Le script est présent dans le dossier "auto"', 'green');
-                
+
                 // execution du script
                 shell_exec('./app/auto/autodeploy.sh');
             }
@@ -59,7 +59,7 @@ class MainController
             $to = DEV_MAIL;
             $subject = "Valid - Déploiement du site";
             $message = "Le site a été déployé avec succès\n\nDernier commit: " . $lastcommit;
-            $headers = "From: api.deploy@porrini.tech" . "\r\n";
+            $headers = "From: portfolio.deploy@porrini.tech" . "\r\n";
             
             mail($to, $subject, $message, $headers) ? write_log('mail', 'Mail sent', '(' . $date . '): ' . $lastcommit, 'green') : write_log('mail', 'Mail not sent', '(' . $date . '): ' . $lastcommit, 'red');
         } else { 
@@ -79,7 +79,7 @@ class MainController
             $to = DEV_MAIL;
             $subject = "Echec - Déploiement du site"; 
             $message = "Le site n\'a pu être déployé\n\nDernier commit: " . $lastcommit;
-            $headers = "From: api.deploy@porrini.tech" . "\r\n";
+            $headers = "From: portfolio.deploy@porrini.tech" . "\r\n";
             
             mail($to, $subject, $message, $headers) ? write_log('mail', 'Mail sent', '(' . $date . '): ' . $lastcommit, 'green') : write_log('mail', 'Mail not sent', '(' . $date . '): ' . $lastcommit, 'red');
         }
