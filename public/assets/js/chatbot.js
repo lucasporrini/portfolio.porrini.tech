@@ -135,9 +135,9 @@ function displayChatbotButton(array) {
 }
 
 async function displayChatbotResponse(userEntryId, container, token) {
+    console.log(token);
     // api request to get the chatbot response
     try{
-        console.log(token);
         fetch('https://api.porrini.tech/get_chatbot_response_to_message/' + userEntryId, {
             method: 'GET',
             headers: {
