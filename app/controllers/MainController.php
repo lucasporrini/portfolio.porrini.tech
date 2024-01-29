@@ -76,7 +76,7 @@ class MainController
             // add the data in tracking_deploy.log
             write_log('tracking_deploy', 'Error', $lastcommit, 'red');
 
-            // On envoie un mail d'echec
+            // send a mail to confirm the deployment
             $to = DEV_MAIL;
             $subject = "Echec - Déploiement du site"; 
             $message = "Le site n\'a pu être déployé\n\nDernier commit: " . $lastcommit;
