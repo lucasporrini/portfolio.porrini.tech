@@ -77,7 +77,6 @@ async function getToken() {
         }
 
         const data = await response.json();
-        console.log(data);
         return data;
 
     } catch (error) {
@@ -136,7 +135,6 @@ function displayChatbotButton(array) {
 }
 
 async function displayChatbotResponse(userEntryId, container, token) {
-    console.log(token);
     // api request to get the chatbot response
     try{
         fetch('https://api.porrini.tech/get_chatbot_response_to_message/' + userEntryId, {
