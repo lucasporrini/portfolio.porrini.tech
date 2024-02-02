@@ -27,7 +27,7 @@
             <a href="https://github.com/lucasporrini" class="strikethough" target="_blank">
                 <span><?php importSVG('github') ?></span>
             </a>
-            <a href="https://github.com/lucasporrini" class="strikethough" target="_blank">
+            <a href="https://www.linkedin.com/in/lucas-digital/" class="strikethough" target="_blank">
                 <span><?php importSVG('linkedin') ?></span>
             </a>
         </div>
