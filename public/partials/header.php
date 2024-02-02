@@ -24,7 +24,7 @@
                     } 
                 } 
             ?>
-            <a href="#" class="strikethough" style="color: white">
+            <a href="https://github.com/lucasporrini" class="strikethough" target="_blank">
                 <span><?php importSVG('github') ?></span>
             </a>
         </div>
