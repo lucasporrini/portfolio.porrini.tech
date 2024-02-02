@@ -17,7 +17,7 @@ function d($var) {
 
 function importSVG($name) {
     // search the svg into public path
-    $svgPath = '/public/assets/svg/' . $name . '.svg';
+    $svgPath = '/public/assets/icons/' . $name . '.svg';
     echo $svgPath;
     return;
     if (file_exists($svgPath)) {
