@@ -24,6 +24,9 @@
                     } 
                 } 
             ?>
+            <a href="#" class="strikethough">
+                <span>test</span>
+            </a>
         </div>
     </div>
     <hr>
