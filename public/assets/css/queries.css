@@ -1,0 +1,25 @@
+/* Pour les appareils mobiles */
+@media (max-width: 480px) {
+    /* Styles vont ici */
+  }
+  
+  /* Pour iPads, tablettes */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* Styles vont ici */
+  }
+  
+  /* Pour les petits écrans, laptops */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles vont ici */
+  }
+  
+  /* Pour les desktops, grands écrans */
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles vont ici */
+  }
+  
+  /* Pour les écrans extra larges, TV */
+  @media (min-width: 1201px) {
+    /* Styles vont ici */
+  }
+  

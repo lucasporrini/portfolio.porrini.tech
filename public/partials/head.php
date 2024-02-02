@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/public/assets/css/chatbot.css">
     <link rel="stylesheet" href="/public/assets/css/main.css">
     <link rel="stylesheet" href="/public/assets/css/effect.css">
+    <link rel="stylesheet" href="/public/assets/css/queries.css">
     <link rel="shortcut icon" href="<?= RELATIVE_PATH_IMG ?>/logo.png" type="image/x-icon">
     <title><?=$this->e($title)?></title>
 </head>
