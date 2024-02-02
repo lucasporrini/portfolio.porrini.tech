@@ -15,6 +15,16 @@ function d($var) {
     echo '</pre>';
 }
 
+function importSVG($name) {
+    // search the svg into public path
+    $svgPath = $_SERVER['DOCUMENT_ROOT'] . '/public/assets/svg/' . $name . '.svg';
+    if (file_exists($svgPath)) {
+        echo file_get_contents($svgPath);
+    } else {
+        echo 'SVG not found';
+    }
+}
+
 function write_log($file, $keyWord, $message, $colorCode = 'default') {
     // Define colors
     $colors = [

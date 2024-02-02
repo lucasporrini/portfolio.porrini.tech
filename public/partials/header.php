@@ -25,7 +25,7 @@
                 } 
             ?>
             <a href="#" class="strikethough">
-                <span>test</span>
+                <span><?php importSVG('github') ?></span>
             </a>
         </div>
     </div>
