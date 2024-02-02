@@ -18,6 +18,8 @@ function d($var) {
 function importSVG($name) {
     // search the svg into public path
     $svgPath = '/public/assets/svg/' . $name . '.svg';
+    echo $svgPath;
+    return;
     if (file_exists($svgPath)) {
         echo file_get_contents($svgPath);
     } else {
