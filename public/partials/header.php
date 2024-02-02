@@ -24,7 +24,7 @@
                     } 
                 } 
             ?>
-            <a href="#" class="strikethough">
+            <a href="#" class="strikethough" style="color: white">
                 <span><?php importSVG('github') ?></span>
             </a>
         </div>
