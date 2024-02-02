@@ -13,7 +13,7 @@
     
     /* ======================== HEADER ======================== */
     --header-height: 60px;
-    --header-font-size: clamp(1.5rem, 1rem, 2rem);
+    --header-font-size: clamp(0.5rem, 1rem, 2rem);
     --header-color: rgb(255, 255, 255);
     --header-weight: 500;
     --header-font-size-title: 13rem;
