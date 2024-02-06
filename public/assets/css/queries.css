@@ -18,7 +18,7 @@
   }
   
   /* Pour iPads, tablettes */
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     .header-container {
       flex-direction: column;
       align-items: center;
@@ -38,11 +38,11 @@
   }
   
   /* Pour les petits écrans, laptops */
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (max-width: 1024px) {
   }
   
   /* Pour les desktops, grands écrans */
-  @media (min-width: 1025px) and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     /* Styles vont ici */
   }
   
