@@ -5,11 +5,25 @@
   }
 
   .header-name {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    text-transform: none;
   }
 
   .header-job {
     display: none;
+  }
+
+  .hero-date {
+    top: 8%;
+    right: 8%;
+  }
+
+  .hero-date-day {
+    font-size: 5rem;
+  }
+
+  .hero-date-month {
+    font-size: 2rem;
   }
 }
 
