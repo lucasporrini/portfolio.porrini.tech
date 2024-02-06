@@ -33,6 +33,13 @@
   .hero-title-text-first > :nth-child(2) {
     font-size: 4rem;
   }
+
+  .hero-description {
+    top: 25%;
+    left: 4%;
+    font-size: 1.3rem;
+    width: 90%;
+  }
 }
 
 /* Pour iPads, tablettes */
