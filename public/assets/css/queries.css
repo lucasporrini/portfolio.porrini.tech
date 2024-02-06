@@ -30,6 +30,10 @@
     font-size: 2rem;
   }
 
+  .hero-title {
+    bottom: 10px;
+  }
+
   .hero-title-text {
     font-size: 7rem;
   }
