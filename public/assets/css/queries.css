@@ -18,8 +18,8 @@
   }
 
   .hero-date {
-    top: 10%;
-    right: 8%;
+    top: 60px;
+    right: 30px;
   }
 
   .hero-date-day {
@@ -39,8 +39,8 @@
   }
 
   .hero-description {
-    top: 30%;
-    left: 4%;
+    top: 200px;
+    left: 15px;
     font-size: 1.3rem;
     width: 90%;
   }
