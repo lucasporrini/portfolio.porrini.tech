@@ -23,6 +23,9 @@
       flex-direction: column;
       align-items: center;
       gap: 0.5rem;
+      :root {
+        --header-font-size: .2rem; /* Ajustement de la taille de la police */
+      }
     }
 
     .header-nav {
