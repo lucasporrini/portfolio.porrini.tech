@@ -66,14 +66,14 @@ header {
 
 }
 
-header .header-container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
 }
 
-header .header-left {
+.header-left {
     display: flex;
     align-items: baseline;
     gap: 1rem;
