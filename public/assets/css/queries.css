@@ -1,5 +1,9 @@
 /* Pour les appareils mobiles */
 @media (max-width: 480px) {
+  header {
+    height: 80px;
+  }
+
   .header-container {
     flex-direction: row;
   }
@@ -14,7 +18,7 @@
   }
 
   .hero-date {
-    top: 8%;
+    top: 10%;
     right: 8%;
   }
 
@@ -35,7 +39,7 @@
   }
 
   .hero-description {
-    top: 25%;
+    top: 30%;
     left: 4%;
     font-size: 1.3rem;
     width: 90%;
