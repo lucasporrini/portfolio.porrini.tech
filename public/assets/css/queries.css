@@ -4,6 +4,10 @@
     flex-direction: row;
   }
 
+  .header-name {
+    font-size: 1rem;
+  }
+
   .header-job {
     display: none;
   }
