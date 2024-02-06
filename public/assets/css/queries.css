@@ -25,6 +25,10 @@
   .hero-date-month {
     font-size: 2rem;
   }
+
+  .hero-title-text {
+    font-size: 7rem;
+  }
 }
 
 /* Pour iPads, tablettes */
