@@ -29,6 +29,10 @@
   .hero-title-text {
     font-size: 7rem;
   }
+
+  .hero-title-text-first > :nth-child(2) {
+    font-size: 4rem;
+  }
 }
 
 /* Pour iPads, tablettes */
