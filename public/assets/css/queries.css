@@ -1,5 +1,9 @@
 /* Pour les appareils mobiles */
 @media (max-width: 480px) {
+  .header-container {
+    flex-direction: row;
+  }
+  
   .header-job {
     display: none;
   }
