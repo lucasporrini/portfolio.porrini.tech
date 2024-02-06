@@ -1,16 +1,37 @@
 /* Pour les appareils mobiles */
 @media (max-width: 480px) {
-    /* Styles vont ici */ 
+  .header-nav a {
+    padding: 0.5rem;
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .header-name,
+    .header-job {
+        font-size: 1.2rem; /* Smaller font size for header elements */
+    }
   }
   
   /* Pour iPads, tablettes */
   @media (min-width: 481px) and (max-width: 768px) {
-    /* Styles vont ici */
+    .header-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  
+    .header-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .header-left {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   
   /* Pour les petits écrans, laptops */
   @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles vont ici */
   }
   
   /* Pour les desktops, grands écrans */
@@ -20,6 +41,6 @@
   
   /* Pour les écrans extra larges, TV */
   @media (min-width: 1201px) {
-    /* Styles vont ici */ 
+    /* Styles vont ici */
   }
   
