@@ -34,6 +34,8 @@
         <!-- Facebook Metadata End -->
 
         <!-- Template Styles Start -->
+        <link rel="stylesheet" type="text/css" href="./public/assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./public/assets/css/root.css">
         <link rel="stylesheet" type="text/css" href="./public/assets/css/loaders/loader-dark.css">
         <link rel="stylesheet" type="text/css" href="./public/assets/css/plugins.css">
         <link rel="stylesheet" type="text/css" href="./public/assets/css/main.css">
