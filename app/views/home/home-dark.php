@@ -145,7 +145,7 @@
                                 <div class="content-block">
                                     <div class="text-content-block">
                                         <span class="block__subtitle">About Us</span>
-                                        <h2 class="block__title">My job is to <span class="italic">design</span> and <span class="bold">develop</span>your web needs</h2>
+                                        <h2 class="block__title">My job is to <span class="italic">design</span> and <span class="bold">develop</span> your web needs</h2>
                                         <p class="block__text">I am a designer and developper based in France. I have many years of experience in all the areas of the web development. I love fluid and uncluttered designs.</p>
                                     </div>
                                 </div>
