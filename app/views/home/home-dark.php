@@ -48,9 +48,8 @@
                     <div class="intro__footer d-flex justify-content-center justify-content-xl-between align-items-center">
                         <div class="footer__halfline halfline-1 two-sides-topline"></div>
                         <ul class="socials socials-text">
-                            <li><a href="https://www.facebook.com/" target="_blank" class="link-s">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank" class="link-s">Instagram</a></li>
-                            <li><a href="https://twitter.com/" target="_blank" class="link-s">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                            <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                         </ul>
                     </div>
                     <!-- Intro Footer End -->
