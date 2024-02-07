@@ -144,7 +144,7 @@
                                 <div class="content-block">
                                     <div class="text-content-block">
                                         <span class="block__subtitle">About Us</span>
-                                        <h2 class="block__title">For the moment, I work <span class="italic">alone</span> on <span class="bold">design/development projects</span></h2>
+                                        <h2 class="block__title">For the moment, I work <span class="italic">alone</span> on <span class="bold">design</span> and <span class="bold">development</span> projects</h2>
                                         <p class="block__text">I wonder if I've been changed in the night?
                                         Let me think. Was I the same when I got up this morning?
                                         I almost think I can remember feeling a little different.
