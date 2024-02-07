@@ -63,8 +63,7 @@ $(function() {
   $(document).ready(function() {
     var today = new Date();
     var day = ("0" + today.getDate()).slice(-2); // Ajoute un zéro devant le jour si nécessaire
-    var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin",
-                      "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+    var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
     var month = monthNames[today.getMonth()];
 
     // Mise à jour du chiffre du jour

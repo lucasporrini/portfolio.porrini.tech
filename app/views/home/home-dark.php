@@ -78,7 +78,14 @@
                                 <span>Laissez place<br>à la découverte</span>
                             </div>
                             <div class="countdown countdown__days">
-                                <div id="countdown"></div>
+                                <div id="countdown">
+                                    <span class="countdown-row countdown-show1">
+                                        <span class="countdown-section">
+                                            <span class="countdown-amount"></span>
+                                            <span class="countdown-period"></span>
+                                        </span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <!-- Main Section Countdown End -->
