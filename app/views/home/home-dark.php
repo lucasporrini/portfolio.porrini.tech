@@ -5,7 +5,7 @@
         <meta charset="utf-8">
 
         <!-- Page Title-->
-        <title>Finley - Stylish HTML Template for Creative Projects</title>
+        <title>Lucas PORRINI | Portfolio - Developper Full Stack</title>
 
         <!-- Meta Tags-->
         <meta name="description" content="Finley - stylish HTML template for creative projects">
