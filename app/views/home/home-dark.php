@@ -1000,10 +1000,10 @@
         </div>
 
         <!-- Load Scripts Start -->
-        <script src="<?= RELATIVE_PATH_JS ?>libs.min.js"></script>
-        <script src="<?= RELATIVE_PATH_JS ?>noise.js"></script>
-        <script src="<?= RELATIVE_PATH_JS ?>gallery-init.js"></script>
-        <script src="<?= RELATIVE_PATH_JS ?>custom.js"></script>
+        <script src="./public/assets/js/libs.min.js"></script>
+        <script src="./public/assets/js/noise.js"></script>
+        <script src="./public/assets/js/gallery-init.js"></script>
+        <script src="./public/assets/js/custom.js"></script>
         <!-- Load Scripts End -->
         
     </body>
