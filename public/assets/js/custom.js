@@ -61,8 +61,11 @@ $(function() {
   // KBW-Countdown Start
   // --------------------------------------------- //
   var today = new Date();
-  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-  $('#countdown').text(date);
+  var day = ("0" + today.getDate()).slice(-2); // Ajoute un zéro devant le jour si nécessaire
+  var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+  var month = monthNames[today.getMonth()];
+  var formattedDate = day + " " + month;
+  $('#countdown').text(formattedDate);
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
