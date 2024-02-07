@@ -39,7 +39,7 @@
                     <div class="intro__notify d-flex align-items-center">
                         <div class="notify__topline two-sides-topline"></div>
                         <a href="#0" id="notify-trigger" class="btn-wide link-l"> 
-                            <span>Be contacted</span>
+                            <span>Let's talk</span>
                         </a>
                     </div>
                     <!-- Intro Notify End -->
