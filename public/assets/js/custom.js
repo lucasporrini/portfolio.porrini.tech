@@ -60,7 +60,9 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2024, 5, 28), format: 'D'});
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  $('#countdown').text(date);
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
