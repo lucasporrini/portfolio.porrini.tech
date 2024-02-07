@@ -668,7 +668,8 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <?php require_once "./public/partials/links/links.php" ?>
+                        <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                        <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
