@@ -64,8 +64,13 @@ $(function() {
   var day = ("0" + today.getDate()).slice(-2); // Ajoute un zéro devant le jour si nécessaire
   var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
   var month = monthNames[today.getMonth()];
-  var formattedDate = day + " " + month;
-  $('#countdown').text(formattedDate);
+  
+  // Crée deux éléments span pour le jour et le mois
+  var daySpan = $('<span>').text(day);
+  var monthSpan = $('<span>').text(month);
+
+  // Insère les éléments span dans l'élément #countdown
+  $('#countdown').empty().append(daySpan, ' ', monthSpan);
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
