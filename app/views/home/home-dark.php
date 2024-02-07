@@ -48,7 +48,8 @@
                     <div class="intro__footer d-flex justify-content-center justify-content-xl-between align-items-center">
                         <div class="footer__halfline halfline-1 two-sides-topline"></div>
                         <ul class="socials socials-text">
-                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                            <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                            <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                         </ul>
                     </div>
                     <!-- Intro Footer End -->
@@ -256,7 +257,8 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
+                                                            <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                                                            <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -272,7 +274,8 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
+                                                            <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                                                            <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -288,7 +291,8 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
+                                                            <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                                                            <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -304,7 +308,8 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
+                                                            <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                                                            <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -337,7 +342,8 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                        <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                        <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
@@ -498,7 +504,8 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                        <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                        <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
@@ -577,7 +584,8 @@
                                                         <div class="col-12 col-md-6 contact-data__item">
                                                             <h5>Follow us</h5>
                                                             <ul>
-                                                                <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                                                                <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+<li><a href="https://www.github.com/luca                        sporrini" target="_blank" class="link-s">GitHub</a></li>
                                                             </ul>
                                                         </div>
                                                         <!-- contact data single item -->
