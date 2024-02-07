@@ -1,5 +1,7 @@
-<script src="https://cdn.babylonjs.com/babylon.js"></script>
-<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
-<script src="/public/assets/js/header.js"></script>
+<!-- Load Scripts Start -->
+<script src="./public/assets/js/libs.min.js"></script>
+<script src="./public/assets/js/noise.js"></script>
+<script src="./public/assets/js/gallery-init.js"></script>
+<script src="./public/assets/js/custom.js"></script>
 <script src="/public/assets/js/chatbot.js"></script>
-<script src="/public/assets/js/model.js"></script>
+<!-- Load Scripts End -->
