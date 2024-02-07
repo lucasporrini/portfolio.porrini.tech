@@ -112,7 +112,7 @@ class MainController
         echo $this->pages->render(
             'home/home-dark',
             [
-                'title' => 'Accueil',
+                'title' => 'Lucas PORRINI | Portfolio - Developper Full Stack',
                 'title_in_page' => 'Accueil',
                 'data' => $data
             ]
