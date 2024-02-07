@@ -17,10 +17,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Template Favicon & Icons Start -->
-        <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
-        <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
-        <link rel="apple-touch-icon" href="img/color-1/apple-touch-icon.png">
-        <link rel="manifest" href="img/favicon/manifest.webmanifest">
+        <link rel="icon" href="./public/assets/img/favicon/favicon.ico" sizes="any">
+        <link rel="icon" href="./public/assets/img/favicon/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="./public/assets/img/color-1/apple-touch-icon.png">
+        <link rel="manifest" href="./public/assets/img/favicon/manifest.webmanifest">
         <!-- Template Favicon & Icons End -->
 
         <!-- Facebook Metadata Start -->
