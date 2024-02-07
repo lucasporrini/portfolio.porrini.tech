@@ -59,6 +59,40 @@ window.addEventListener('load', () => {
             });
         }
     });
+
+    // Drag and drop
+    var dragOffsetX, dragOffsetY;
+
+    chatbotHeader.addEventListener("mousedown", function(e) {
+        dragOffsetX = e.clientX - chatbot.getBoundingClientRect().left;
+        dragOffsetY = e.clientY - chatbot.getBoundingClientRect().top;
+        document.addEventListener("mousemove", onMouseMove);
+        document.addEventListener("mouseup", onMouseUp);
+    });
+
+    function onMouseMove(event) {
+        let newX = event.clientX - dragOffsetX;
+        let newY = event.clientY - dragOffsetY;
+
+        // Limiter le déplacement à la zone visible de la fenêtre
+        newX = Math.max(0, Math.min(newX, window.innerWidth - chatbot.offsetWidth));
+        newY = Math.max(0, Math.min(newY, window.innerHeight - chatbot.offsetHeight));
+
+        chatbot.style.left = newX + "px";
+        chatbot.style.top = newY + "px";
+    }
+
+    function onMouseUp() {
+        document.removeEventListener("mousemove", onMouseMove);
+        document.removeEventListener("mouseup", onMouseUp);
+
+        // Fixer la position
+        let finalX = (window.innerWidth - chatbot.offsetWidth) / 2 > chatbot.getBoundingClientRect().left ? 0 : window.innerWidth - chatbot.offsetWidth;
+        let finalY = (window.innerHeight - chatbot.offsetHeight) / 2 > chatbot.getBoundingClientRect().top ? 0 : window.innerHeight - chatbot.offsetHeight;
+
+        chatbot.style.left = finalX + "px";
+        chatbot.style.top = finalY + "px";
+    }
 });
 
 let token = null;
