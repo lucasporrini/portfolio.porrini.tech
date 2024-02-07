@@ -60,17 +60,18 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  var today = new Date();
-  var day = ("0" + today.getDate()).slice(-2); // Ajoute un zéro devant le jour si nécessaire
-  var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
-  var month = monthNames[today.getMonth()];
-  
-  // Crée deux éléments span pour le jour et le mois
-  var daySpan = $('<span>').text(day);
-  var monthSpan = $('<span>').text(month);
+  $(document).ready(function() {
+    var today = new Date();
+    var day = ("0" + today.getDate()).slice(-2); // Ajoute un zéro devant le jour si nécessaire
+    var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin",
+                      "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+    var month = monthNames[today.getMonth()];
 
-  // Insère les éléments span dans l'élément #countdown
-  $('#countdown').empty().append(daySpan, ' ', monthSpan);
+    // Mise à jour du chiffre du jour
+    $('#countdown .countdown-amount').text(day);
+    // Mise à jour du mois
+    $('#countdown .countdown-period').text(month);
+  });
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
