@@ -22,12 +22,12 @@
     
                         <!-- Headline Start -->
                         <div class="headline">
-                            <span class="headline__subtitle">Creative agency</span>
-                            <h1 class="headline__title">We are preparing 
-                                <span class="italic">something amazing</span> 
-                                for you. Special surprise for our 
-                                <span class="bold">subscribers</span> 
-                                only.
+                            <span class="headline__subtitle">Full Stack Developper</span>
+                            <h1 class="headline__title">Bienvenue sur mon
+                                <span class="italic">portfolio</span> 
+                                ! J'espère que l'expérience vous
+                                <span class="bold">plaira</span>
+                                .
                             </h1>
                         </div>
                         <!-- Headline End -->
