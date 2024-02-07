@@ -731,8 +731,8 @@
 
             <!-- Notify Popup Title Start -->
             <div class="popup-title">
-                <p class="popup-title__title">Get to know about <span class="italic">our launch</span></p>
-                <p class="popup-title__text">Subscribe to our newsletter and we will send you a notification about the launch of our brand new site</p>
+                <p class="popup-title__title">You want <span class="italic">to contact</span> me ?</p>
+                <p class="popup-title__text">Share your e-mail address with me and I'll get back to you as soon as possible</p>
             </div>
             <!-- Notify Popup Title End -->
 
