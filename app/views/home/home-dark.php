@@ -23,10 +23,10 @@
                         <!-- Headline Start -->
                         <div class="headline">
                             <span class="headline__subtitle">Full Stack Developper</span>
-                            <h1 class="headline__title">Bienvenue sur mon
+                            <h1 class="headline__title">Welcome to my
                                 <span class="italic">portfolio</span> 
-                                ! J'espère que l'expérience vous
-                                <span class="bold">plaira</span>
+                                ! I hope you'll enjoy the
+                                <span class="bold">experience</span>
                                 .
                             </h1>
                         </div>
@@ -39,7 +39,7 @@
                     <div class="intro__notify d-flex align-items-center">
                         <div class="notify__topline two-sides-topline"></div>
                         <a href="#0" id="notify-trigger" class="btn-wide link-l"> 
-                            <span>Être contacté</span>
+                            <span>Be contacted</span>
                         </a>
                     </div>
                     <!-- Intro Notify End -->
