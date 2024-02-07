@@ -4,7 +4,7 @@
     <body>
         <?php require_once RELATIVE_PATH_PARTIALS . "loader/loader.php" ?>
         <!-- header -->
-        <?php //require_once RELATIVE_PATH_PARTIALS . "header.php" ?>
+        <?php require_once RELATIVE_PATH_PARTIALS . "header.php" ?>
 
         <!-- main -->
         <?= $this->section('content') ?>

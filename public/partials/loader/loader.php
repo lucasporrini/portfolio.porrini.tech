@@ -7,3 +7,7 @@
     </div>
 </div>
 <!-- Loader End -->
+
+<!-- Noise Background Start -->
+<canvas id="noise" class="noise"></canvas>
+    <!-- Noise Background End -->
