@@ -2,6 +2,7 @@
     <!-- head -->
     <?php require_once RELATIVE_PATH_PARTIALS . "head.php" ?>
     <body>
+        <?php require_once RELATIVE_PATH_PARTIALS . "loader/loader.php" ?>
         <!-- header -->
         <?php //require_once RELATIVE_PATH_PARTIALS . "header.php" ?>
 
