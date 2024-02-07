@@ -54,7 +54,7 @@
                     <?php
                         // Check the current active page
                         $current_page = basename($_SERVER['PHP_SELF']);
-
+                        print_r($current_page);
 
                         $counter = 0;
                         foreach($data['nav'] as $item) {
