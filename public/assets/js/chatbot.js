@@ -22,6 +22,11 @@ window.addEventListener('load', () => {
 
     chatbotHeader.addEventListener('click', (e) => {
         e.preventDefault();
+
+        chatbotHeader.removeEventListener('mouseout', (e) => {
+            e.preventDefault();
+            chatbotHeader.classList.add('disabled');
+        });
         
         // actualize the new message in variable
         chatbotMessage = chatbotMessageContainer.querySelectorAll('div');
