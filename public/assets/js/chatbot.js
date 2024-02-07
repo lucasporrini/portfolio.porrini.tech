@@ -27,6 +27,8 @@ window.addEventListener('load', () => {
             e.preventDefault();
             chatbotHeader.classList.add('disabled');
         });
+
+        chatbotHeader.classList.remove('disabled');
         
         // actualize the new message in variable
         chatbotMessage = chatbotMessageContainer.querySelectorAll('div');
