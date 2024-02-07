@@ -260,9 +260,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <li><a href="https://www.facebook.com/" target="_blank" class="link-s">FB</a></li>
-                                                            <li><a href="https://www.instagram.com/" target="_blank" class="link-s">IN</a></li>
-                                                            <li><a href="https://twitter.com/" target="_blank" class="link-s">TW</a></li>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -278,9 +276,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <li><a href="https://www.facebook.com/" target="_blank" class="link-s">FB</a></li>
-                                                            <li><a href="https://www.instagram.com/" target="_blank" class="link-s">IN</a></li>
-                                                            <li><a href="https://twitter.com/" target="_blank" class="link-s">TW</a></li>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -296,9 +292,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <li><a href="https://www.facebook.com/" target="_blank" class="link-s">FB</a></li>
-                                                            <li><a href="https://www.instagram.com/" target="_blank" class="link-s">IN</a></li>
-                                                            <li><a href="https://twitter.com/" target="_blank" class="link-s">TW</a></li>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -314,9 +308,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <li><a href="https://www.facebook.com/" target="_blank" class="link-s">FB</a></li>
-                                                            <li><a href="https://www.instagram.com/" target="_blank" class="link-s">IN</a></li>
-                                                            <li><a href="https://twitter.com/" target="_blank" class="link-s">TW</a></li>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
