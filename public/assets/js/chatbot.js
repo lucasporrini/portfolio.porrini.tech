@@ -64,7 +64,7 @@ window.addEventListener('load', () => {
     let isDragging = false;
     let dragOffsetX, dragOffsetY;
 
-    chatbotHeader.addEventListener('drag', function(e) {
+    chatbotHeader.addEventListener('mousedown', function(e) {
         isDragging = true;
         dragOffsetX = e.clientX - chatbot.getBoundingClientRect().left;
         dragOffsetY = e.clientY - chatbot.getBoundingClientRect().top;
