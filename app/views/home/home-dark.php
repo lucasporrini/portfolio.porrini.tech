@@ -742,7 +742,7 @@
                 <!-- Reply Messages Start-->
                 <div class="reply-group subscription-ok">
                     <span class="reply-group__title">Done!</span>
-                    <span class="reply-group__text">Thanks for subscribing. We will send you a notification about our launch.</span>
+                    <span class="reply-group__text">Thanks for sharing. I'll get back to you as soon as possible.</span>
                 </div>
                 <div class="reply-group subscription-error">
                     <span class="reply-group__title">Ooops!</span>
