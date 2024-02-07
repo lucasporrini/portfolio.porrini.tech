@@ -112,8 +112,8 @@
 
             <div class="nav__footer d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                 <ul class="socials socials-text">
-                    <li><a href="https://www.facebook.com/" target="_blank" class="link-s">LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank" class="link-s">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
+                    <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                 </ul>
                 <p class="copyright">
                     Made with 
