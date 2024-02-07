@@ -731,7 +731,7 @@
 
             <!-- Notify Popup Title Start -->
             <div class="popup-title">
-                <p class="popup-title__title">You want <span class="italic">to contact</span> me ?</p>
+                <p class="popup-title__title">You want to <span class="italic">contact me</span> ?</p>
                 <p class="popup-title__text">Share your e-mail address with me and I'll get back to you as soon as possible</p>
             </div>
             <!-- Notify Popup Title End -->
