@@ -60,38 +60,46 @@ window.addEventListener('load', () => {
         }
     });
 
-    // Drag and drop
-    var dragOffsetX, dragOffsetY;
+    // Ajout de la fonctionnalité de déplacement
+    let isDragging = false;
+    let dragOffsetX, dragOffsetY;
 
-    chatbotHeader.addEventListener("mousedown", function(e) {
+    chatbotHeader.addEventListener('mousedown', function(e) {
+        isDragging = true;
         dragOffsetX = e.clientX - chatbot.getBoundingClientRect().left;
         dragOffsetY = e.clientY - chatbot.getBoundingClientRect().top;
-        document.addEventListener("mousemove", onMouseMove);
-        document.addEventListener("mouseup", onMouseUp);
+        document.addEventListener('mousemove', onMouseMove);
+        document.addEventListener('mouseup', onMouseUp);
     });
 
     function onMouseMove(event) {
-        let newX = event.clientX - dragOffsetX;
-        let newY = event.clientY - dragOffsetY;
+        if (isDragging) {
+            let newX = event.clientX - dragOffsetX;
+            let newY = event.clientY - dragOffsetY;
 
-        // Limiter le déplacement à la zone visible de la fenêtre
-        newX = Math.max(0, Math.min(newX, window.innerWidth - chatbot.offsetWidth));
-        newY = Math.max(0, Math.min(newY, window.innerHeight - chatbot.offsetHeight));
+            // Limiter le déplacement à la zone visible de la fenêtre
+            newX = Math.max(0, Math.min(newX, window.innerWidth - chatbot.offsetWidth));
+            newY = Math.max(0, Math.min(newY, window.innerHeight - chatbot.offsetHeight));
 
-        chatbot.style.left = newX + "px";
-        chatbot.style.top = newY + "px";
+            chatbot.style.position = 'absolute'; // Assurez-vous que votre chatbot a une position absolue
+            chatbot.style.left = newX + 'px';
+            chatbot.style.top = newY + 'px';
+        }
     }
 
     function onMouseUp() {
-        document.removeEventListener("mousemove", onMouseMove);
-        document.removeEventListener("mouseup", onMouseUp);
+        if (isDragging) {
+            isDragging = false;
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
 
-        // Fixer la position
-        let finalX = (window.innerWidth - chatbot.offsetWidth) / 2 > chatbot.getBoundingClientRect().left ? 0 : window.innerWidth - chatbot.offsetWidth;
-        let finalY = (window.innerHeight - chatbot.offsetHeight) / 2 > chatbot.getBoundingClientRect().top ? 0 : window.innerHeight - chatbot.offsetHeight;
+            // Fixer la position
+            let finalX = (window.innerWidth - chatbot.offsetWidth) / 2 > chatbot.getBoundingClientRect().left ? 0 : window.innerWidth - chatbot.offsetWidth;
+            let finalY = (window.innerHeight - chatbot.offsetHeight) / 2 > chatbot.getBoundingClientRect().top ? 0 : window.innerHeight - chatbot.offsetHeight;
 
-        chatbot.style.left = finalX + "px";
-        chatbot.style.top = finalY + "px";
+            chatbot.style.left = finalX + 'px';
+            chatbot.style.top = finalY + 'px';
+        }
     }
 });
 
