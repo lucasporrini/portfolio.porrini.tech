@@ -110,7 +110,7 @@ class MainController
 
         // send it to the view
         echo $this->pages->render(
-            'home/home',
+            'home/home-dark',
             [
                 'title' => 'Accueil',
                 'title_in_page' => 'Accueil',

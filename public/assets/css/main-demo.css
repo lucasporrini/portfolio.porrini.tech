@@ -1,0 +1,1183 @@
+/*! ------------------------------------------------
+ * Project Name: Finley Template
+ * Project Description: Finley - Stylish HTML Template for Creative Projects
+ * Tags: mix_design, coming soon, under construction, template, landing page, portfolio, one page, responsive, html5, css3, creative, clean, agency, personal page
+ * Version: 1.0.1
+ * Build Date: May 2023
+ * Last Update: January 2024
+ * This product is available exclusively on Themeforest
+ * Author: mix_design
+ * Author URI: https://themeforest.net/user/mix_design */
+/*! File name: main-demo.css
+ * ------------------------------------------------
+ *
+ * ------------------------------------------------
+ * Table of Contents
+ * ------------------------------------------------
+ *  1. Loader Styles
+ *  2. Fonts
+ *  3. Base CSS Styles
+ *  4. Cursor
+ *  5. Typography Styles
+ *  6. Buttons & Triggers Styles
+ *  7. Intro Styles
+ *  8. Preview Sections Styles
+ *  9. Preview Links Styles
+ *  10. Subscribe Section Styles
+ *  11. Footer Styles
+ * ------------------------------------------------
+ * Table of Contents End
+ * ------------------------------------------------ */
+/* ------------------------------------------------*/
+/* Loader Styles Start */
+/* ------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #1a1a1a;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.loader.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.loader__logo {
+  width: 120px;
+}
+.loader__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes scaleOut {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+            transform: scale3d(1.2, 1.2, 1.2);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes scaleOut {
+  from {
+    -moz-transform: scale3d(1, 1, 1);
+         transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  to {
+    -moz-transform: scale3d(1.2, 1.2, 1.2);
+         transform: scale3d(1.2, 1.2, 1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+       -moz-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+       -moz-transform: scale3d(1.2, 1.2, 1.2);
+            transform: scale3d(1.2, 1.2, 1.2);
+    opacity: 0;
+  }
+}
+.scaleOut {
+  -webkit-animation: scaleOut 0.5s 1;
+     -moz-animation: scaleOut 0.5s 1;
+          animation: scaleOut 0.5s 1;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+/* ------------------------------------------------*/
+/* Loader Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Fonts Start */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Fonts End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Base CSS Styles Start */
+/* ------------------------------------------------*/
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button:active, button:focus {
+  outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+input::-moz-focus-inner {
+  border: 0 !important;
+}
+
+::-moz-selection {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1a1a1a;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #1a1a1a;
+  text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 5px;
+  background: #212121;
+}
+@media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  min-width: 360px;
+  overflow-x: hidden !important;
+  font: normal 400 1.6rem/1.6 "Plus Jakarta Sans", sans-serif;
+  background-color: #1a1a1a;
+  color: #cccccc;
+}
+
+main {
+  position: relative;
+  overflow-y: auto;
+}
+
+header {
+  min-width: 360px;
+}
+
+section {
+  position: relative;
+  min-width: 360px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.color-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.color-layer-medium {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.color-layer-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.noise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.2;
+}
+.noise.light {
+  opacity: 0.04;
+}
+
+.marquee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  --offset: 30vw;
+  --move-initial: -moz-calc(-25% + var(--offset));
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: -moz-calc(-50% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+}
+@media only screen and (min-width: 768px) {
+  .marquee {
+    bottom: 7rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .marquee {
+    bottom: 12rem;
+  }
+}
+
+.marquee__inner {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-transform: translate3d(var(--move-initial), 0, 0);
+     -moz-transform: translate3d(var(--move-initial), 0, 0);
+          transform: translate3d(var(--move-initial), 0, 0);
+  -webkit-animation: marquee 12s linear infinite;
+     -moz-animation: marquee 12s linear infinite;
+          animation: marquee 12s linear infinite;
+  -webkit-animation-play-state: running;
+     -moz-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.marquee span {
+  position: relative;
+  white-space: nowrap;
+  font: italic 400 7.2rem/0.74 "DM Serif Display", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  opacity: 0.3;
+  padding-right: 12px;
+  padding-left: 34px;
+}
+.marquee span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-image: url("../img/icons/50x50-star-italic.svg");
+  -moz-background-size: 100%;
+       background-size: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .marquee span {
+    font-size: 11.4rem;
+    padding-left: 54px;
+    padding-right: 22px;
+  }
+  .marquee span::after {
+    width: 44px;
+    height: 44px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .marquee span {
+    font-size: 15.6rem;
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+  .marquee span::after {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .marquee span {
+    font-size: 7vw;
+  }
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translate3d(var(--move-initial), 0, 0);
+            transform: translate3d(var(--move-initial), 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(var(--move-final), 0, 0);
+            transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+
+@-moz-keyframes marquee {
+  0% {
+    -moz-transform: translate3d(var(--move-initial), 0, 0);
+         transform: translate3d(var(--move-initial), 0, 0);
+  }
+  100% {
+    -moz-transform: translate3d(var(--move-final), 0, 0);
+         transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translate3d(var(--move-initial), 0, 0);
+       -moz-transform: translate3d(var(--move-initial), 0, 0);
+            transform: translate3d(var(--move-initial), 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(var(--move-final), 0, 0);
+       -moz-transform: translate3d(var(--move-final), 0, 0);
+            transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+/* ------------------------------------------------*/
+/* Base CSS Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Cursor Styles Start */
+/* ------------------------------------------------*/
+.cursor {
+  display: block;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  background-color: #ffffff;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  -webkit-transform: scale(0.1);
+     -moz-transform: scale(0.1);
+      -ms-transform: scale(0.1);
+          transform: scale(0.1);
+  -webkit-transform-origin: center center;
+     -moz-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33);
+  transition: -webkit-transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33);
+  -o-transition: transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33);
+  -moz-transition: transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33), -moz-transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33);
+  transition: transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33);
+  transition: transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33), -webkit-transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33), -moz-transform 0.4s cubic-bezier(0.75, -0.27, 0.3, 1.33);
+  z-index: 9999;
+}
+
+@supports not (mix-blend-mode: difference) {
+  .cursor {
+    opacity: 0.7;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .cursor {
+    visibility: hidden;
+  }
+}
+.touch .cursor {
+  display: none;
+}
+
+.cursor-s {
+  -webkit-transform: scale(0.3);
+     -moz-transform: scale(0.3);
+      -ms-transform: scale(0.3);
+          transform: scale(0.3);
+}
+
+.cursor-l {
+  -webkit-transform: scale(0.6);
+     -moz-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+.cursor-xl {
+  -webkit-transform: scale(0.7);
+     -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+          transform: scale(0.7);
+}
+@media only screen and (min-width: 1400px) {
+  .cursor-xl {
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.cursor span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  font: italic 400 1.8rem/1 "DM Serif Display", serif;
+  text-align: center;
+  color: #1a1a1a;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cursor-xl span {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ------------------------------------------------*/
+/* Cursor Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Typography Styles Start */
+/* ------------------------------------------------*/
+.headline__title {
+  font: normal 200 4rem/1.2 "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 2.7rem;
+  max-width: 600px;
+}
+.headline__title span.italic {
+  font-style: italic;
+  font-weight: 400;
+}
+.headline__title span.bold {
+  font-weight: 600;
+}
+@media only screen and (min-width: 768px) {
+  .headline__title {
+    font-size: 4.6rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .headline__title {
+    max-width: 800px;
+    font-size: 6rem;
+  }
+}
+
+.headline__subtitle {
+  display: block;
+  position: relative;
+  font: normal 400 1.5rem/1.2 "Plus Jakarta Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #cccccc;
+  padding-left: 28px;
+}
+.headline__subtitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../img/icons/20x20-star-light.svg");
+}
+
+figure {
+  text-align: center;
+}
+figure figcaption p {
+  display: block;
+  font: normal 400 1.2rem/1.2 "Plus Jakarta Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #b3b3b3;
+  margin-top: 1.6rem;
+}
+@media only screen and (min-width: 1400px) {
+  figure figcaption p {
+    margin-top: 2rem;
+  }
+}
+
+.main__footer p {
+  font: normal 400 1.2rem/1.2 "Plus Jakarta Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #cccccc;
+}
+.main__footer p a {
+  font: normal 400 1.2rem/1.2 "Plus Jakarta Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+.main__footer p i {
+  color: #fff;
+}
+
+/* ------------------------------------------------*/
+/* Typography Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Buttons & Triggers Styles Start */
+/* ------------------------------------------------*/
+.btn {
+  position: relative;
+  display: inline-block;
+  border: none;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  font: italic 400 1.8rem/1.2 "DM Serif Display", serif;
+  text-align: center;
+}
+
+.btn-solid {
+  height: 50px;
+  line-height: 50px;
+  width: auto;
+  min-width: 140px;
+  padding: 0 4.6rem;
+}
+.btn-solid::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #1a1a1a;
+  z-index: 1;
+  -webkit-transform: scaleX(0);
+     -moz-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+     -moz-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease, -moz-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease, -moz-transform 0.3s ease;
+}
+.btn-solid span {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.no-touch .btn-solid:hover::before {
+  -webkit-transform: scaleX(1);
+     -moz-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+     -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.btn-solid-light {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #2c2c2c;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.btn-solid-light::before {
+  background: #1a1a1a;
+}
+.no-touch .btn-solid-light:hover {
+  color: #fff;
+}
+
+.btn-solid-transparent {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #2c2c2c;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.btn-solid-transparent::before {
+  background-color: #f7f7f7;
+  -webkit-transform: scaleX(1);
+     -moz-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+     -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+.no-touch .btn-solid-transparent:hover {
+  color: #fff;
+}
+.no-touch .btn-solid-transparent:hover::before {
+  -webkit-transform: scaleX(0);
+     -moz-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+     -moz-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+/* ------------------------------------------------*/
+/* Buttons & Triggers Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Intro Styles Start */
+/* ------------------------------------------------*/
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 360px;
+  overflow-y: auto;
+}
+
+.main__header {
+  position: relative;
+  padding-top: 5rem;
+}
+
+.header__container {
+  position: relative;
+  padding: 0 10%;
+}
+@media only screen and (min-width: 1200px) {
+  .header__container {
+    padding: 0 10rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .header__container {
+    padding: 0 12rem;
+  }
+}
+
+.headline {
+  position: relative;
+  padding: 0 -moz-calc(10% - 15px);
+  padding: 0 calc(10% - 15px);
+}
+@media only screen and (min-width: 1200px) {
+  .headline {
+    padding: 0 8.5rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .headline {
+    padding: 0 10.5rem;
+  }
+}
+
+.header__logo {
+  position: relative;
+  width: auto;
+  height: 36px;
+  margin-bottom: 2rem;
+}
+.header__logo img {
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .header__logo {
+    height: 4rem;
+    padding-top: 0.4rem;
+    margin-bottom: 0;
+  }
+  .header__logo img {
+    margin: 0;
+  }
+}
+
+.header__btnholder {
+  position: relative;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .header__btnholder {
+    text-align: right;
+  }
+}
+
+.main__content {
+  position: relative;
+  padding: 8rem 0;
+}
+@media only screen and (min-width: 1200px) {
+  .main__content {
+    padding: 7rem 0;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main__content {
+    padding: 8rem 0;
+  }
+}
+
+/* ------------------------------------------------*/
+/* Intro Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Preview Sections Styles Start */
+/* ------------------------------------------------*/
+.main__demo {
+  position: relative;
+  padding-bottom: 3rem;
+  overflow: hidden;
+}
+.main__demo.has-title {
+  padding-top: 5rem;
+}
+@media only screen and (min-width: 768px) {
+  .main__demo.has-title {
+    padding-top: 8rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .main__demo.first-section {
+    padding-top: 8rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main__demo {
+    padding-bottom: 3rem;
+  }
+  .main__demo.has-title {
+    padding-top: 11rem;
+  }
+}
+
+/* ------------------------------------------------*/
+/* Preview Sections Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Preview Links Styles Start */
+/* ------------------------------------------------*/
+.demo__links {
+  position: relative;
+  width: 100%;
+  padding: 0 -moz-calc(10% - 15px);
+  padding: 0 calc(10% - 15px);
+}
+@media only screen and (min-width: 1200px) {
+  .demo__links {
+    padding: 0 8.5rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .demo__links {
+    padding: 0 10.5rem;
+  }
+}
+
+.links__item {
+  display: block;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.links__item a {
+  display: block;
+  cursor: none;
+}
+.no-touch .links__item a:hover .links__image {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.no-touch .links__item a:hover .new-item::before {
+  top: -14px;
+  -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.1), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.14);
+     -moz-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.1), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.14);
+          box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.1), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.14);
+}
+@media only screen and (min-width: 1400px) {
+  .links__item {
+    margin-bottom: 8rem;
+  }
+}
+
+.new-item::before {
+  content: "NEW";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  font: normal 600 1.2rem/51px "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 12;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.links__image {
+  position: relative;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ------------------------------------------------*/
+/* Preview Links Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Subscribe Section Styles Start */
+/* ------------------------------------------------*/
+.main__subscribe {
+  position: relative;
+  min-width: 360px;
+  padding: 8rem 0;
+  background-color: #1a1a1a;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+       background-size: cover;
+  background-image: url("../img/demo/bg-demo-subscribe.webp");
+}
+@media only screen and (min-width: 768px) {
+  .main__subscribe {
+    padding: 8rem 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .main__subscribe {
+    background-attachment: fixed;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main__subscribe {
+    padding: 11rem 0;
+  }
+}
+
+.subscribe__container {
+  position: relative;
+  width: 100%;
+  padding: 0 -moz-calc(10% - 15px);
+  padding: 0 calc(10% - 15px);
+}
+@media only screen and (min-width: 1200px) {
+  .subscribe__container {
+    padding: 0 8.5rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .subscribe__container {
+    padding: 0 10.5rem;
+  }
+}
+
+.subscribe__content {
+  max-width: 480px;
+}
+@media only screen and (min-width: 1400px) {
+  .subscribe__content {
+    max-width: 520px;
+  }
+}
+
+.subscribe__title .subtitle {
+  display: block;
+  position: relative;
+  font: normal 400 1.5rem/1.2 "Plus Jakarta Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #cccccc;
+  padding-left: 28px;
+  margin-bottom: 2.8rem;
+}
+.subscribe__title .subtitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../img/icons/20x20-star-light.svg");
+}
+.subscribe__title .title {
+  font: normal 200 3.6rem/1.2 "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+}
+.subscribe__title .title span.italic {
+  font-style: italic;
+  font-weight: 400;
+}
+.subscribe__title .title span.bold {
+  font-weight: 700;
+}
+.subscribe__title .descr {
+  font: normal 200 1.8rem/1.6 "Plus Jakarta Sans", sans-serif;
+  color: #e2e2e2;
+  padding-left: 0.2rem;
+  margin-top: 2.9rem;
+}
+@media only screen and (min-width: 1400px) {
+  .subscribe__title .subtitle {
+    margin-bottom: 2.6rem;
+  }
+  .subscribe__title .title {
+    font-size: 4rem;
+  }
+}
+
+.form-container {
+  position: relative;
+  padding-top: 1.8rem;
+}
+
+.form {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.form.is-hidden {
+  opacity: 0;
+}
+
+form {
+  position: relative;
+  width: 100%;
+}
+form input, form textarea {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  padding: 0 0.2rem;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font: normal 200 1.4rem/1.8 "Plus Jakarta Sans", sans-serif;
+  color: #e2e2e2;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+form input:focus, form textarea:focus {
+  border-bottom: 1px solid #ffffff;
+}
+form input {
+  height: 5rem;
+  margin-bottom: 2.4rem;
+}
+form input.margin-s {
+  margin-bottom: 0.5rem;
+}
+form textarea {
+  padding: 1.5rem 0.2rem;
+  height: 14rem;
+  margin-bottom: 0.5rem;
+  resize: none;
+}
+form .inputs-description {
+  display: block;
+  width: 100%;
+  margin-bottom: 2.4rem;
+  text-align: right;
+  font: normal 200 1.2rem/1.2 "Plus Jakarta Sans", sans-serif;
+  color: #e2e2e2;
+}
+form ::-webkit-input-placeholder {
+  color: #e2e2e2;
+}
+form :-moz-placeholder {
+  color: #e2e2e2;
+}
+form ::-moz-placeholder {
+  color: #e2e2e2;
+}
+form :-ms-input-placeholder {
+  color: #e2e2e2;
+}
+form input:focus:required:invalid,
+form textarea:focus:required:invalid {
+  color: #e2e2e2;
+}
+form input:required:valid,
+form textarea:required:valid {
+  color: #fff;
+}
+
+.reply-group {
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  width: 100%;
+  max-width: 440px;
+  text-align: left;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.reply-group.is-visible {
+  opacity: 1;
+}
+
+.reply-group__title {
+  font: normal 200 3rem/1.2 "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
+
+.reply-group__text {
+  display: block;
+  font: normal 200 1.4rem/1.6 "Plus Jakarta Sans", sans-serif;
+  color: #e2e2e2;
+}
+
+/* ------------------------------------------------*/
+/* Subscribe Section Styles End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Footer Styles Start */
+/* ------------------------------------------------*/
+.main__footer {
+  position: relative;
+  padding: 3rem -moz-calc(10% - 15px);
+  padding: 3rem calc(10% - 15px);
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  .main__footer {
+    padding: 3rem 8.5rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main__footer {
+    padding: 5rem 10.5rem;
+  }
+}
+
+/* ------------------------------------------------*/
+/* Footer Styles End */
+/* ------------------------------------------------*/
