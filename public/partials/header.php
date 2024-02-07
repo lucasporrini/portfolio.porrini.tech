@@ -71,7 +71,7 @@
                     <!-- navigation single item -->
                     <li class="menu__item">
                         <span class="menu__number">01.</span>
-                        <a href="/" id="home-trigger" class="menu__link active-link right text-end">
+                        <a href="#0" id="home-trigger" class="menu__link active-link right text-end">
                             <span class="menu__image right menu-image-1"></span>
                             <span data-text="Home" class="menu__caption right link-xl">Home</span>
                         </a>
@@ -80,7 +80,7 @@
                     <!-- navigation single item -->
                     <li class="menu__item">
                         <span class="menu__number">02.</span>
-                        <a href="about" id="about-trigger" class="menu__link left text-start">
+                        <a href="#0" id="about-trigger" class="menu__link left text-start">
                             <span class="menu__image left menu-image-2"></span>
                             <span data-text="About us" class="menu__caption link-xl">About us</span>
                         </a>
@@ -89,7 +89,7 @@
                     <!-- navigation single item -->
                     <li class="menu__item">
                         <span class="menu__number">03.</span>
-                        <a href="works" id="works-trigger" class="menu__link right text-end">
+                        <a href="#0" id="works-trigger" class="menu__link right text-end">
                             <span class="menu__image right menu-image-3"></span>
                             <span data-text="Projects" class="menu__caption right link-xl">Projects</span>
                         </a>
@@ -98,7 +98,7 @@
                     <!-- navigation single item -->
                     <li class="menu__item">
                         <span class="menu__number">04.</span>
-                        <a href="contact" id="contact-trigger" class="menu__link left text-start">
+                        <a href="#0" id="contact-trigger" class="menu__link left text-start">
                             <span class="menu__image left menu-image-4"></span>
                             <span data-text="Contact" class="menu__caption link-xl">Contact</span>
                         </a>
