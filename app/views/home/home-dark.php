@@ -668,7 +668,7 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                        <?php require_once "./public/partials/links/links.php" ?>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
