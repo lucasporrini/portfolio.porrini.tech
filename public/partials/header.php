@@ -119,7 +119,7 @@
                 <p class="copyright">
                     Made with 
                     <i class="fa-solid fa-heart"></i> 
-                    <a href="https://1.envato.market/EKA9WD" target="_blank" class="link-s"> by Mix_Design</a>, 2024
+                    <a href="https://1.envato.market/EKA9WD" target="_blank" class="link-s"> by Lucas PORRINI</a>, 2024
                 </p>
             </div>
 
