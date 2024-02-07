@@ -1,4 +1,14 @@
-    <body>
+<?php
+    $this->layout(
+        '../template/page_template',
+        [
+            'title' => $this->e($title),
+            'data' => $data
+        ]
+    );
+?>
+
+<body>
 
         <!-- Loader Start -->
         <div class="loader">
