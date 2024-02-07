@@ -1,6 +1,6 @@
 <!-- Chat Section Begin -->
 <div id="chatbot" class="chatbot">
-        <div class="chatbot-header">
+        <div class="chatbot-header disabled">
             <span class="font-medium">Lucas Bot</span>
             <span>Posez moi une question</span>
             <button class="chatbot-button">
