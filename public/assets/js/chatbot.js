@@ -11,8 +11,8 @@ window.addEventListener('load', () => {
     let chatbotButtonMessage = chatbotButtonMessageContainer.querySelectorAll('div');
 
     // chatbotHeader.addEventListener('click', (e) => {
-    function chatbotClickHandler(e) {
-        e.preventDefault();
+    function chatbotClickHandler() {
+        // e.preventDefault();
         
         // actualize the new message in variable
         chatbotMessage = chatbotMessageContainer.querySelectorAll('div');
