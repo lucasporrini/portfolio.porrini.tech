@@ -260,7 +260,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -276,7 +276,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -292,7 +292,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
@@ -308,7 +308,7 @@
                                                     <div class="team__image">
                                                         <img src="https://dummyimage.com/800x800/4d4d4d/636363" alt="Finley Template Team Image">
                                                         <ul class="team__socials socials socials-icons">
-                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
+                                                            <?php require_once RELATIVE_PATH_PARTIALS . "links/individual_links.php" ?>
                                                         </ul>
                                                     </div>
                                                     <div class="team__descr">
