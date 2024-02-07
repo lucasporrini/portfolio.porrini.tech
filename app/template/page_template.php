@@ -9,6 +9,9 @@
         <!-- main -->
         <?= $this->section('content') ?>
 
+        <!-- chatbot -->
+        <?php require_once RELATIVE_PATH_PARTIALS . "chatbot/chatbot.php" ?>
+
         <!-- footer -->
         <?php require_once RELATIVE_PATH_PARTIALS . "footer.php" ?>
 
