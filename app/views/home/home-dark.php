@@ -585,7 +585,7 @@
                                                             <h5>Follow us</h5>
                                                             <ul>
                                                                 <li><a href="https://www.linkedin.com/in/lucas-digital/" target="_blank" class="link-s">LinkedIn</a></li>
-<li><a href="https://www.github.com/luca                        sporrini" target="_blank" class="link-s">GitHub</a></li>
+                                                                <li><a href="https://www.github.com/lucasporrini" target="_blank" class="link-s">GitHub</a></li>
                                                             </ul>
                                                         </div>
                                                         <!-- contact data single item -->
@@ -596,7 +596,7 @@
                                                         <!-- contact data single item -->
                                                         <div class="col-12 col-md-6 contact-data__item">
                                                             <h5>Email</h5>
-                                                            <p><a href="mailto:example@example.com?subject=Message%20from%20your%20site" class="link-s">example@example.com</a></p>
+                                                            <p><a href="mailto:porrini.lucas@gmail.com?subject=Message%20from%20your%20site" class="link-s">porrini.lucas@gmail.com</a></p>
                                                         </div>
                                                     </div>
                                                     </div>
