@@ -1,13 +1,12 @@
 // ------------------------------------------------
-// Project Name: Finley Template
-// Project Description: Finley - Stylish HTML Template for Creative Projects
-// Tags: mix_design, coming soon, under construction, template, landing page, portfolio, one page, responsive, html5, css3, creative, clean, agency, personal page
+// Project Name: Lucas PORRINI - Portfolio
+// Project Description: Lucas PORRINI - Full Stack Developer - Portfolio
+// Tags: Lucas PORRINI, coming soon, under construction, template, landing page, portfolio, one page, responsive, html5, css3, creative, clean, agency, personal page
 // Version: 1.0.1
 // Build Date: May 2023
 // Last Update: January 2024
-// This product is available exclusively on Themeforest
-// Author: mix_design
-// Author URI: https://themeforest.net/user/mix_design
+// Author: Lucas PORRINI
+// Author URI: https://github.com/lucasporrini
 // File name: custom.js
 // ------------------------------------------------
 
