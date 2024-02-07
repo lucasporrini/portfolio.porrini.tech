@@ -567,10 +567,8 @@
                                             <div class="row gx-5">
                                                 <div class="col-12 col-xl-6">
                                                     <span class="block__subtitle">Contact</span>
-                                                    <h2 class="block__title">Welcome to our new <span class="italic">office</span></h2>
-                                                    <p class="block__text">Our website is under construction but we are ready to go! You can call us or leave a 
-                                                        request here. We are always glad to see you in our office from 9:00 to 18:00.
-                                                    </p>
+                                                    <h2 class="block__title">Welcome to the <span class="italic">contact section</span></h2>
+                                                    <p class="block__text">You've come to the right place to get in touch! If you'd like a more direct exchange, please contact me on LinkedIn. I'll get back to you as soon as possible.</p>
                                                 </div>
                                             </div>
                                         </div>
