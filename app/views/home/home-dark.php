@@ -75,7 +75,7 @@
                         <!-- Main Section Countdown Start -->
                         <div class="media__countdown text-center text-xl-end">
                             <div class="countdown__caption">
-                                <span>Laissez place<br>à la découverte</span>
+                                <span>Now, it's time<br>to discover</span>
                             </div>
                             <div class="countdown countdown__days">
                                 <div id="countdown">
