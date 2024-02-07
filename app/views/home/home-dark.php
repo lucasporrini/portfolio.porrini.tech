@@ -33,10 +33,10 @@
         <!-- Facebook Metadata End -->
 
         <!-- Template Styles Start -->
-        <link rel="stylesheet" type="text/css" href="<?= RELATIVE_PATH_CSS ?>loaders/loader-dark.css">
-        <link rel="stylesheet" type="text/css" href="<?= RELATIVE_PATH_CSS ?>plugins.css">
-        <link rel="stylesheet" type="text/css" href="<?= RELATIVE_PATH_CSS ?>main.css">
-        <link rel="stylesheet" type="text/css" href="<?= RELATIVE_PATH_CSS ?>chatbot.css">
+        <link rel="stylesheet" type="text/css" href="./public/assets/css/loaders/loader-dark.css">
+        <link rel="stylesheet" type="text/css" href="./public/assets/css/plugins.css">
+        <link rel="stylesheet" type="text/css" href="./public/assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="./public/assets/css/chatbot.css">
         <!--<link rel="stylesheet" type="text/css" href="css/colors/color-dark.css">-->
         <!-- Template Styles End -->
 
