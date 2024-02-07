@@ -10,6 +10,16 @@ window.addEventListener('load', () => {
     let chatbotButtonMessageContainer = document.getElementById('chat-button-container');
     let chatbotButtonMessage = chatbotButtonMessageContainer.querySelectorAll('div');
 
+    chatbotHeader.addEventListener('mouseover', (e) => {
+        e.preventDefault();
+        chatbotHeader.classList.remove('disabled');
+    });
+
+    chatbotHeader.addEventListener('mouseout', (e) => {
+        e.preventDefault();
+        chatbotHeader.classList.add('disabled');
+    });
+
     chatbotHeader.addEventListener('click', (e) => {
         e.preventDefault();
         
