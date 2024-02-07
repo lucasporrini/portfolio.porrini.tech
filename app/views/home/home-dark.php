@@ -145,11 +145,7 @@
                                     <div class="text-content-block">
                                         <span class="block__subtitle">About Us</span>
                                         <h2 class="block__title">I work <span class="italic">alone</span> on <span class="bold">design</span> and <span class="bold">development</span> projects</h2>
-                                        <p class="block__text">I wonder if I've been changed in the night?
-                                        Let me think. Was I the same when I got up this morning?
-                                        I almost think I can remember feeling a little different.
-                                        But if I'm not the same, the next question is 'Who in the world am I?' Ah, that's the great puzzle!
-                                        </p>
+                                        <p class="block__text">I am a designer and developper based in France. I have many years of experience in all the areas of the web development. I love fluid and uncluttered designs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,33 +165,33 @@
                                             <!-- Skillbar single item -->
                                             <div class="show-skillbar">
                                                 <div class="skillbar light" data-percent="96">
-                                                <span class="skillbar-title light">UI/UX Design</span>
-                                                <p class="skillbar-bar light" style="width: 96%;"></p>
-                                                <span class="skill-bar-percent light">96%</span>
-                                                </div>
-                                            </div>
-                                            <!-- Skillbar single item -->
-                                            <div class="show-skillbar">
-                                                <div class="skillbar light" data-percent="84">
-                                                <span class="skillbar-title light">Branding</span>
-                                                <p class="skillbar-bar light" style="width: 84%;"></p>
+                                                <span class="skillbar-title light">Web development langage</span>
+                                                <p class="skillbar-bar light" style="width: 90%;"></p>
                                                 <span class="skill-bar-percent light">90%</span>
                                                 </div>
                                             </div>
                                             <!-- Skillbar single item -->
                                             <div class="show-skillbar">
+                                                <div class="skillbar light" data-percent="84">
+                                                <span class="skillbar-title light">API & Database</span>
+                                                <p class="skillbar-bar light" style="width: 85%;"></p>
+                                                <span class="skill-bar-percent light">85%</span>
+                                                </div>
+                                            </div>
+                                            <!-- Skillbar single item -->
+                                            <div class="show-skillbar">
                                                 <div class="skillbar light" data-percent="90">
-                                                <span class="skillbar-title light">3D Modeling</span>
-                                                <p class="skillbar-bar light" style="width: 90%;"></p>
+                                                <span class="skillbar-title light">Design project</span>
+                                                <p class="skillbar-bar light" style="width: 87%;"></p>
                                                 <span class="skill-bar-percent light">87%</span>
                                                 </div>
                                             </div>
                                             <!-- Skillbar single item -->
                                             <div class="show-skillbar">
                                                 <div class="skillbar light" data-percent="73">
-                                                <span class="skillbar-title light">Illustrations</span>
+                                                <span class="skillbar-title light">UI/UX Design</span>
                                                 <p class="skillbar-bar light" style="width: 73%;"></p>
-                                                <span class="skill-bar-percent light">98%</span>
+                                                <span class="skill-bar-percent light">73%</span>
                                                 </div>
                                             </div>
                                         </div>
