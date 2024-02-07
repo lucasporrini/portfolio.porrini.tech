@@ -53,20 +53,20 @@
                 <ul class="menu">
                     <?php
                         // Check the current active page
-                        $current_page = basename($_SERVER['PHP_SELF']);
-                        print_r($current_page);
+                        // $current_page = basename($_SERVER['PHP_SELF']);
+                        // print_r($current_page);
 
-                        $counter = 0;
-                        foreach($data['nav'] as $item) {
-                            if($item['active'] == 1) {
-                                echo '<li class="menu_item">
-                                    <a href="#0' . $counter . '" id="' . $item['nav_title'] . '-trigger" class="menu__link ' . $current_page == $item['nav_title'] ? 'active-link' : null . ' right text-end">
-                                        <span class="menu__image right menu-image-' . $counter . '"></span>
-                                        <span data-text="' . ucfirst($item['nav_title']) . '" class="menu__caption right link-xl">' . ucfirst($item['nav_title']) . '</span>
-                                    </a>
-                                    <span class="menu__divider"></span>';
-                            }
-                        }
+                        // $counter = 0;
+                        // foreach($data['nav'] as $item) {
+                        //     if($item['active'] == 1) {
+                        //         echo '<li class="menu_item">
+                        //             <a href="#0' . $counter . '" id="' . $item['nav_title'] . '-trigger" class="menu__link ' . $current_page == $item['nav_title'] ? 'active-link' : null . ' right text-end">
+                        //                 <span class="menu__image right menu-image-' . $counter . '"></span>
+                        //                 <span data-text="' . ucfirst($item['nav_title']) . '" class="menu__caption right link-xl">' . ucfirst($item['nav_title']) . '</span>
+                        //             </a>
+                        //             <span class="menu__divider"></span>';
+                        //     }
+                        // }
                     ?>
                     <!-- navigation single item -->
                     <li class="menu__item">
