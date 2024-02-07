@@ -337,9 +337,7 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <li><a href="https://www.facebook.com/" target="_blank" class="link-s">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" class="link-s">Instagram</a></li>
-                        <li><a href="https://twitter.com/" target="_blank" class="link-s">Twitter</a></li>
+                        <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
@@ -500,9 +498,7 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <li><a href="https://www.facebook.com/" target="_blank" class="link-s">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" class="link-s">Instagram</a></li>
-                        <li><a href="https://twitter.com/" target="_blank" class="link-s">Twitter</a></li>
+                        <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
@@ -581,9 +577,7 @@
                                                         <div class="col-12 col-md-6 contact-data__item">
                                                             <h5>Follow us</h5>
                                                             <ul>
-                                                                <li><a href="https://www.facebook.com/" target="_blank" class="link-s">Facebook</a></li>
-                                                                <li><a href="https://twitter.com/" target="_blank" class="link-s">Twitter</a></li>
-                                                                <li><a href="https://dribbble.com/" target="_blank" class="link-s">Dribbble</a></li>
+                                                                <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                                                             </ul>
                                                         </div>
                                                         <!-- contact data single item -->
@@ -674,9 +668,7 @@
                 <div class="footer__content d-md-flex text-center text-md-start align-items-md-center justify-content-md-between">
                     <!-- inner footer socials -->
                     <ul class="socials socials-text">
-                        <li><a href="https://www.facebook.com/" target="_blank" class="link-s">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" class="link-s">Instagram</a></li>
-                        <li><a href="https://twitter.com/" target="_blank" class="link-s">Twitter</a></li>
+                        <?php require_once RELATIVE_PATH_PARTIALS . "links/links.php" ?>
                     </ul>
                     <!-- inner footer copyright -->
                     <p class="copyright">
