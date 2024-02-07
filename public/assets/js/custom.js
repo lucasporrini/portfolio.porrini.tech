@@ -86,9 +86,9 @@ $(function() {
       transition: 'fade2',
       transitionDuration: 2000,
       slides: [
-        { src: "./public/assets/img/backgrounds/header.webp" },
-        { src: "https://dummyimage.com/960x1080/4d4d4d/636363" },
-        { src: "https://dummyimage.com/960x1080/4d4d4d/636363" }
+        { src: "./public/assets/img/backgrounds/header_1.webp" },
+        { src: "./public/assets/img/backgrounds/header_2.webp" },
+        { src: "./public/assets/img/backgrounds/header_3.webp" }
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
