@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+	<style type="text/css">
+		.star {
+			fill: #000000;
+		}
+		@media (prefers-color-scheme: dark) {
+			.star {
+				fill: #ffffff;
+			}
+		}
+	</style>
+
+<path class="star" d="M500.5,250.5c0,0-142.7,2.9-194.8,55s-55.2,195-55.2,195s-3-142.8-55.1-194.9S0.5,250.5,0.5,250.5s142.8-3.2,194.9-55.3
+	S250.5,0.5,250.5,0.5s2.9,142.8,55,194.9S500.5,250.5,500.5,250.5z"/>
+</svg>
