@@ -9,9 +9,9 @@
         <!-- <title>Lucas PORRINI | Portfolio - Developper Full Stack</title> -->
 
         <!-- Meta Tags-->
-        <meta name="description" content="Finley - stylish HTML template for creative projects">
-        <meta name="keywords" content="mix_design, coming soon, under construction, template, landing page, portfolio, one page, responsive, html5, css3, creative, clean, agency, personal page">
-        <meta name="author" content="mix_design">
+        <meta name="description" content="Lucas PORRINI - Let's discover all the full stack developper profile">
+        <meta name="keywords" content="full stack developper, developper, web, creative, javascript, js, php, css3, html5, express, nodejs, front-end, back-end, designer, web app, web application">
+        <meta name="author" content="Lucas PORRINI">
 
         <!-- Viewport Meta-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
