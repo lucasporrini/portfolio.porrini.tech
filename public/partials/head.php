@@ -27,8 +27,8 @@
         <!-- Facebook Metadata Start -->
         <meta property="og:image:height" content="1200">
         <meta property="og:image:width" content="1200">
-        <meta property="og:title" content="Finley - stylish HTML template for creative projects">
-        <meta property="og:description" content="Finley - awesome coming soon template to kick-start your project">
+        <meta property="og:title" content="Lucas PORRINI - Full stack developper portfolio">
+        <meta property="og:description" content="Lucas PORRINI - Let's discover all the full stack developper profile">
         <meta property="og:url" content="http://mixdesign.club/themeforest/finley/">
         <meta property="og:image" content="http://mixdesign.club/themeforest/finley/img/favicon/og-image.jpg">
         <!-- Facebook Metadata End -->
