@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
     <!-- head -->
     <?php require_once RELATIVE_PATH_PARTIALS . "head.php" ?>
     <body>
